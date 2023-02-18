@@ -11,8 +11,8 @@ function Form() {
         console.log(inputPassword.current.value)
     
         let data = {
-          phone:  parseInt(inputPhone.current.value), 
-          password: inputPassword 
+          phone:  inputPhone.current.value, 
+          password: inputPassword.current.value 
         }
         let url = "https://comfortable-gold-belt.cyclic.app/login" 
 
